@@ -24,7 +24,7 @@ class CashRegister
   def items
     item_list = []
     @@items.each do |item|
-      item_list << item.name
+      item_list << item.title
     end
     item_list
   end
