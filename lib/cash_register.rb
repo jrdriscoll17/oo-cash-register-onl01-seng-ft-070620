@@ -31,10 +31,10 @@ class CashRegister
   def void_last_transaction
     @@transactions.pop()
 
-    if @@transactions.length == 0
-      @total = 0.0
-    else
-      @@transactions.last
-    end
+    # if @@transactions.length == 0
+    #   @total = 0.0
+    # else
+    #   @@transactions.last
+    # end
   end
 end
