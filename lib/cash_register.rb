@@ -28,5 +28,6 @@ class CashRegister
       item_list << item.title
     end
     item_list
+    @@items
   end
 end
