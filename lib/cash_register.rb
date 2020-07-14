@@ -29,7 +29,7 @@ class CashRegister
   end
 
   def void_last_transaction
-    @@transactions.pop
+    @@transactions.pop()
 
     if @@transactions.length == 0
       @total = 0.0
