@@ -25,10 +25,11 @@ class CashRegister
   end
 
   def items
-    item_list = []
-    @items.each do |item|
-      item_list << item.title
-    end
-    item_list
-  end
+    @items
+  #   item_list = []
+  #   @items.each do |item|
+  #     item_list << item.title
+  #   end
+  #   item_list
+  # end
 end
