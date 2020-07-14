@@ -25,10 +25,7 @@ class CashRegister
 
   def items
     @items
-  #   item_list = []
-  #   @items.each do |item|
-  #     item_list << item.title
-  #   end
-  #   item_list
   end
+
+  def 
 end
