@@ -30,9 +30,9 @@ class CashRegister
 
   def void_last_transaction
     if @@transactions.length == 0
-      @@transactions.last
-    else
       @total = 0.0
+    else
+      @@transactions.last
     end
   end
 end
