@@ -26,5 +26,6 @@ class CashRegister
     @@items.each do |item|
       item_list << item.name
     end
+    item_list
   end
 end
